@@ -1,12 +1,9 @@
-const one = document.getElementById('one');
-const two = document.getElementById('two');
+const toChange = document.querySelectorAll('.toChange');
 
-one.addEventListener('click', () => {
-  one.classList.add('bgclicked');
-  one.classList.remove('bg');
-});
-
-two.addEventListener('click', () => {
-  two.classList.add('bgclicked');
-  two.classList.remove('bg');
+toChange.forEach((change) => {
+  change.addEventListener('click', () => {
+    /*change.classList.add('bgclicked');
+    change.classList.remove('bg');*/
+    change.style.opacity = 0;
+  });
 });

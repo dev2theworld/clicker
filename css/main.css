@@ -17,6 +17,9 @@ body .container {
       grid-template-columns: repeat(4, 1fr);
   gap: 10px;
   overflow: hidden;
+  /*.bgclicked {
+      background: none;
+    }*/
 }
 
 body .container .bg {
@@ -42,9 +45,5 @@ body .container .bg:hover {
   opacity: 0.75;
   -webkit-transform: scale(0.98);
           transform: scale(0.98);
-}
-
-body .container .bgclicked {
-  background: none;
 }
 /*# sourceMappingURL=main.css.map */
