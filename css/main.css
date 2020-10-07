@@ -33,5 +33,18 @@ body .container .bg {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+
+body .container .bg:hover {
+  cursor: pointer;
+  opacity: 0.75;
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+}
+
+body .container .bgclicked {
+  background: none;
 }
 /*# sourceMappingURL=main.css.map */

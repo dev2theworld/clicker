@@ -24,6 +24,17 @@ body {
       display: flex;
       align-items: center;
       justify-content: center;
+      transition: all 0.5s ease-in;
+    }
+
+    .bg:hover {
+      cursor: pointer;
+      opacity: 0.75;
+      transform: scale(0.98);
+    }
+
+    .bgclicked {
+      background: none;
     }
   }
 }
