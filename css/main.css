@@ -6,7 +6,9 @@
 }
 
 body {
-  background-color: grey;
+  background: url(../img/under.jpg);
+  background-size: cover;
+  background-position: center;
   color: white;
 }
 
@@ -17,9 +19,6 @@ body .container {
       grid-template-columns: repeat(4, 1fr);
   gap: 10px;
   overflow: hidden;
-  /*.bgclicked {
-      background: none;
-    }*/
 }
 
 body .container .bg {
@@ -40,10 +39,21 @@ body .container .bg {
   transition: all 0.5s ease-in;
 }
 
+body .container .bg h3 {
+  font-family: 'Codystar', cursive;
+  font-size: 2.5rem;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+
 body .container .bg:hover {
   cursor: pointer;
   opacity: 0.75;
   -webkit-transform: scale(0.98);
           transform: scale(0.98);
+}
+
+body .container .bg:hover h3 {
+  color: gold;
 }
 /*# sourceMappingURL=main.css.map */

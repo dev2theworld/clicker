@@ -5,10 +5,10 @@
 }
 
 body {
-  background-color: grey;
+  background: url(../img/under.jpg);
+  background-size: cover;
+  background-position: center;
   color: white;
-  // height: 100%;
-  // overflow: hidden;
 
   .container {
     display: grid;
@@ -25,17 +25,23 @@ body {
       align-items: center;
       justify-content: center;
       transition: all 0.5s ease-in;
+
+      h3 {
+        font-family: 'Codystar', cursive;
+        font-size: 2.5rem;
+        transition: all 0.5s ease-in;
+      }
     }
 
     .bg:hover {
       cursor: pointer;
       opacity: 0.75;
       transform: scale(0.98);
-    }
 
-    /*.bgclicked {
-      background: none;
-    }*/
+      h3 {
+        color: gold;
+      }
+    }
   }
 }
 
